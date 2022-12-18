@@ -36,7 +36,7 @@ include("function.php");
 
 ?>
 <br><br>
-       <img name="tit" style="width: 200px;height: 200px;" src='<?php echo ($row['article_img']);?> '></a>
+       <img name="tit" style="width: 200px;height: 200px;" src='<?php echo ("https://amjadwebsite2022.online/admin/".$row['article_img']);?> '></a>
       <?php
       $current_count=$row['count'];
       $new_count=$current_count+1;
