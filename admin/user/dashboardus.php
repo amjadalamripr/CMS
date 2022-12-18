@@ -39,7 +39,7 @@ if ($ecrp_pass == $ecrp_passv) {
    VALUES ('$user','$ecrp_pass','$email','$name','$ecrp_pass')");
    $_SESSION['admin_role']=$name;
    ?>
-   <script language="javascript">window.location.href="amjadwebsite2022.online";</script>
+   <script language="javascript">window.location.href="https://amjadwebsite2022.online/";</script>
 <?php
 
 
